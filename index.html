@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5</title>
+</head>
+    <body>
+        <!--Ordered list with roman numerals-->
+        <h2>Top 10 fastest athletes in the world</h2> 
+        <ol type="I">
+            <li>Usain Bolt</li>
+            <li>Yohan Blake</li>
+            <li>Tyson Gay</li>
+            <li>Asafa Powell</li>
+            <li>Justin Gatlin</li>
+        </ol>
+        <br></br>
+
+        <!-- - An external image from pexels.com -->
+        <h2>Beauty of nature</h2>
+        <img src="https://images.pexels.com/photos/31341763/pexels-photo-31341763/free-photo-of-black-and-white-winter-forest-in-tuscany.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" width="400" height="400" alt="Black and white image of tress">
+        <br></br>
+
+        <!-- A table of 5 contacts with; name, address, mobile and emails -->
+         <h2>Table of contacts</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Emails</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lisa</td>
+                    <td>233 str London</td>
+                    <td>+1234567</td>
+                    <td>Lisa@hotmail.com</td>
+                </tr>
+                <tr>
+                    <td>Rose</td>
+                    <td>34 str Manchester</td>
+                    <td>+8934567</td>
+                    <td>Rose@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>982 str London</td>
+                    <td>+7654321</td>
+                    <td>John982@hotmail.com</td>
+                </tr>
+                <tr>
+                    <td>Kate</td>
+                    <td>373 str Yorkshire</td>
+                    <td>+103824567</td>
+                    <td>kate09@hotmail.com</td>
+                </tr>
+                <tr>
+                    <td>Grace</td>
+                    <td>9840 str London</td>
+                    <td>+1234567</td>
+                    <td>Lisa@hotmail.com</td>
+                </tr>
+            </tbody>
+         </table>
+         <br></br>
+
+         <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <!-- Name Field -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        <br><br>
+
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Choose a password" required>
+        <br><br>
+
+        <!-- Date Field -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <!-- Dropdown -->
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+
+        <!-- Radio Buttons -->
+        <p>Membership Type:</p>
+        <input type="radio" id="basic" name="membership" value="basic" required>
+        <label for="basic">Basic</label>
+        <br>
+        <input type="radio" id="premium" name="membership" value="premium">
+        <label for="premium">Premium</label>
+        <br><br>
+
+        <!-- Checkboxes -->
+        <p>Interests:</p>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">Coding</label>
+        <br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <br>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Register</button>
+    </form>
+    </body>
+</html>
